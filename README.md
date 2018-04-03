@@ -10,5 +10,5 @@ docker run \
 	--name autodl-irssi \
 	-v </path/to/watch/directory>:/home/user/watch:rw \
 	-v </path/to/autodl/directory>:/home/user/.autodl:rw \
-	thomaswelton:autodl-irssi
+	thomaswelton/autodl-irssi
 ```
